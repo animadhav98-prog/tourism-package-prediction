@@ -36,7 +36,7 @@ input_data = pd.DataFrame([{
     'MonthlyIncome': MonthlyIncome,
     'NumberOfPersonVisiting': NumberOfPersonVisiting,
     'NumberOfTrips': NumberOfTrips,
-    'NumberOfChildrenVisiting': NumberOfChildrenVisiting
+    'NumberOfChildrenVisiting': NumberOfChildrenVisiting,
     'CityTier': 1 if CityTier == "Tier 1" else (2 if CityTier == "Tier 2" else 3),
     'Occupation': Occupation,
     'Gender': Gender,
